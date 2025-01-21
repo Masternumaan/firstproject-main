@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rigestration form</title>
+</head>
+<style>
+    * {
+        margin: 8px;
+        padding:2;
+        box-sizing: border-box;
+
+            }
+    body {
+        background-image: url(/anton-sobotyak-K_PfDu_z45M-unsplash.jpg);
+        background-size: cover;
+    }
+    .login{
+        background-color: #ffffff;
+        width: 450px;
+        height: 500px;
+        margin: 70px  auto;
+        text-align: center;
+        border-radius: 10px;
+    }
+    h2{
+        color: rgb(5, 5, 5);
+        padding: 30px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+            
+    }
+    .input{
+        border-radius: 3px;
+        /* text-align: ; */
+        width: 80%;
+        height: 35px;
+        border: 1px solid #00000050;
+        padding-left: 10px;
+    }
+    
+    #SUBMIT input{
+        color: rgb(245, 242, 242);
+        width: 72%;
+        height: 40px;
+        border-radius: 7px;
+        font-size: larger;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-size: contain;
+        background-color: rgb(99, 184, 223);
+        border-color: rgb(218, 213, 213);
+    }
+ </style>
+<body>
+    <div  class="login">
+        <div class="content">
+        <h2>Rigestration Form</h2>
+        <!-- <label for="name">name</label> -->
+        <input type="text" name="" id="name" placeholder="Enter your name" class="input">
+        <!-- <label for="email">Email</label> -->
+        <input type="email" name="" id="email" placeholder="Enter your Emial" class="input">
+        <!-- <label for="Phone number">Ph Number</label> -->
+        <input type="text" name="" id="phonenumber" placeholder="Enter phone number" class="input">
+        <!-- <label for="password">password</label> -->
+        <input type="password" name="" id="password" placeholder="Enter your password" class="input">
+        <div id="conformation">
+            <input type="checkbox" name="checkbox" id="agreed">I conformed that the about details is correct
+        </div>
+        <div id="SUBMIT" class="SUBMIT">
+            <input type="button" value="SUBMIT">
+        </div>
+        <div class="already">
+            <P>I already have account </P>
+            <a href="">login</a>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
